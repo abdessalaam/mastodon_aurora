@@ -23,7 +23,7 @@ Beautiful custom css for Mastodon
 
 This theme can be applied on top of an existing installation by simply calling the css file:
 
-1. Upload this mastodon_aurora.css to _your_mastodon/public/system/custom/_ folder.
+1. Upload the **mastodon_aurora.css** to _your_mastodon/public/system/custom/_ folder.
 2. Login to your mastodon, then go to: _Preferences -> Administration -> Server Settings -> Appearance_
 3. in _Custom CSS_ put:
 
