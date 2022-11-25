@@ -1,0 +1,342 @@
+
+/**************************************************************
+Copyright (C) 2022 Pawel Siwczak
+
+Theme Name: Mastodon Aurora
+Theme URI: https://www.artsculture.media/
+Author: Pawel Siwczak / ArtsCulture.Media
+Author URI: @baroquepawel@artsculture.media
+
+Permission to use, copy, modify, and distribute this work 
+for any purpose with or without fee is hereby granted,
+provided that the above copyright notice and 
+this permission appear in all copies. 
+
+This material is provided "as is", with absolutely no warranty 
+expressed or implied. Any use is at your own responsibility.
+**************************************************************/
+
+/*
+* Version: 1.0.064
+* Date: 25 November 2022
+*/
+
+
+/***********************************
+* CUSTOM FONT 
+***********************************/
+
+@font-face {
+    font-family: "Noto Sans Display";
+    src: url('fonts/NotoSansDisplay-VariableFont_wdth%2Cwght.ttf') format('truetype');
+    font-weight: 800;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@800&display=swap'); */
+
+
+/***********************************
+* GENERAL
+***********************************/
+
+.account__header__extra__links {
+    text-align: right;
+}
+
+.theme-default .account__header__extra__links a {
+    color: #3a404a;
+}
+
+.theme-default .account__header__extra__links a strong {
+    color: #3a404a;
+}
+
+
+
+/***********************************
+* LOGIN and SIGNUP
+***********************************/
+
+body.lighter {
+    background: url('https://yourdomain.org/system/custom/background.jpg'); /* change name to your background image */
+    background-color: #02111B;
+    background-size: cover;
+}
+
+
+.account__header__fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/***********************************
+* DARK THEME (DEFAULT)
+***********************************/
+
+.theme-default .tabs-bar__wrapper {
+    background: transparent;
+}
+
+.theme-default .about__meta {
+    border-width: 1px 1px 5px 1px;
+    border-style: solid;
+    border-color: #7974FE;
+}
+
+.theme-default .about__meta {
+    background: transparent;
+}
+
+.theme-default .account__header__fields .verified dt {
+    color: #606984 !important;
+}
+
+.theme-default .account__header__bio .account__header__fields {
+    background-color: #02111B;
+}
+
+.theme-default .detailed-status, .detailed-status__action-bar {
+    background-color: #02111B;
+}
+
+.theme-default .conversation--unread {
+    background-color: #02111B;
+}
+
+.theme-default .conversation--unread p {
+    color: #FCFCFC;
+}
+
+.theme-default .account__header {
+    background-color: #02111B;
+    border-width: 0 1px 5px 1px;
+    border-style: solid;
+    border-color: #7974FE;
+}
+
+.theme-default .account-card, .scrollable .account-card {
+    background-color: #02111B;
+    border: 1px solid #7974FE;
+}
+
+.theme-default .column-inline-form {
+    background-color: #02111B;
+}
+
+.theme-default .account__section-headline button, .notification__filter-bar button {
+    background-color: #02111B;
+}
+
+.theme-default .account__section-headline, .notification__filter-bar {
+    background-color: #02111B;
+}
+
+.theme-default .dismissable-banner, .follow_requests-unlocked_explanation {
+    background-color: #02111B;
+    border: 1px solid #BF1A2F;
+}
+
+.theme-default .regeneration-indicator, .column>.scrollable {
+    background: #02111B;
+}
+
+.theme-default .empty-column-indicator {
+    background: #02111B;
+}
+
+.theme-default .compose-form .compose-form__modifiers {
+    background: #02111B;
+}
+
+.theme-default .compose-panel .compose-form__autosuggest-wrapper {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7974FE;
+    background-color: #02111B;
+}
+
+.theme-default .compose-form .autosuggest-textarea__textarea {
+    background-color: #02111B !important;
+    color: rgb(240, 240, 240);
+}
+
+.theme-default html {
+    scrollbar-color: #8181811a #02111B;
+}
+
+.theme-default {
+    background: #02111B;
+}
+
+
+/***********************************
+* LIGHT THEME 
+***********************************/
+
+.theme-mastodon-light .column>.scrollable .empty-column-indicator {
+    background: #eff3f5;
+}
+
+.theme-mastodon-light .notification__filter-bar button {
+    background-color: #eff3f5;
+}
+
+.theme-default .compose-form .compose-form__buttons-wrapper {
+    background: #02111B;
+    border-width: 0 1px 5px 1px;
+    border-style: solid;
+    border-color: #7974FE;
+}
+
+.theme-mastodon-light .column>.scrollable {
+    background: #eff3f5;
+}
+
+
+/***********************************
+* UNIVERSAL 
+***********************************/
+
+
+/* ADMIN AREA */
+
+body.admin {
+    font-size: 1rem;
+    /* font-family: 'Manrope', serif; */
+}
+
+.admin .display-name__html {
+    font-size: 1rem;
+}
+
+
+
+
+/* PUBLIC FACING PAGES */
+
+body {
+    font-size: 1.15rem;
+}
+
+.trends__item__name {
+    font-size: 0.8rem;
+}
+
+
+.navigation-bar__profile-account, .display-name__html {
+    font-size: 1.25rem;
+    font-family: 'Noto Sand Display', sans-serif;
+    font-weight: 800;
+    opacity: 0.55;
+}
+
+.display-name__html {
+    line-height: 1.5rem;
+}
+
+
+.navigation-bar__profile-edit {
+    font-size: 0.8rem;
+    opacity: 0.55;
+}
+
+.account__header__fields .verified {
+    border: none !important;
+    background: none;
+}
+
+
+.compose-form .autosuggest-textarea__textarea {
+    font-size: 0.9rem;
+    min-height: 175px;
+}
+
+.account__header.inactive {
+    background: url('https://yourdomain.org/system/custom/moved.jpg'); /* change name to your thumbnail image */
+    background-size: cover;
+    opacity: 0.15;
+    filter: saturate(0.5);
+}
+
+.account__header.inactive .account__header__image {
+    opacity: 0;
+}
+
+.acm_red {
+    color: #BF1A2F;
+}
+
+.acm_small {
+    font-size: 0.8rem;
+}
+
+.regeneration-indicator, .column>.scrollable {
+    font-size: 1.1rem;
+}
+.empty-column-indicator {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.column-header {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    opacity: 0.67;
+}
+
+a.column-link {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    opacity: 0.67;
+}
+
+.detailed-status-direct {
+    border-right: 5px solid #BF1A2F;
+}
+
+.column[aria-label="Direct messages"] {
+    border-right: 5px solid #BF1A2F;
+}
+
+.conversation__unread {
+    background-color: #BF1A2F;
+    animation: pulse 3s infinite;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+}
+    @keyframes pulse {
+    0% {
+        transform: scale(0.25);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(0.25);
+    }
+    }
+
+.status-direct {
+    border-right: 5px solid #BF1A2F;
+}
+
+.status-direct .fa-at::before {
+    color: #BF1A2F;
+}
+
+.account__header__image {
+    height: 325px;
+}
+
+.account__header .account__avatar {
+    width: 155px !important;
+    height: 155px !important;
+}
+
+.theme-mastodon-light .detailed-status, .detailed-status__action-bar {
+    background-color: #eff3f5;
+}
