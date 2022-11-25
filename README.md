@@ -45,6 +45,11 @@ CUSTOM THUMBNAIL for accounts that moved
 upload to: _your_mastodon/public/system/custom/_
 
 
+## Enjoy, share, adapt, and follow me on mastodon: 
+[@baroquepawel@artsculture.media](https://talk.artsculture.media/@baroquepawel)
+
+🎵 🎹 🐘
+
 
 ## License (MIT)
 
@@ -63,7 +68,4 @@ this permission appear in all copies.
 This material is provided "as is", with absolutely no warranty 
 expressed or implied. Any use is at your own responsibility.
 
-## Enjoy, share, adapt, and follow me on mastodon: 
-[@baroquepawel@artsculture.media](https://talk.artsculture.media/@baroquepawel)
 
-🎵 🎹 🐘
