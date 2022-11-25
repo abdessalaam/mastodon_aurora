@@ -17,7 +17,7 @@ expressed or implied. Any use is at your own responsibility.
 **************************************************************/
 
 /*
-* Version: 1.0.064
+* Version: 1.0.065
 * Date: 25 November 2022
 */
 
@@ -169,6 +169,10 @@ body.lighter {
     background: #02111B;
 }
 
+.theme-default .dropdown-menu, .dropdown-menu__item a {
+    background: #313543;
+    color: #eff3f5;
+}
 
 /***********************************
 * LIGHT THEME 
