@@ -1,6 +1,6 @@
 # Mastodon 'Aurora' CSS
 Beautiful custom css for Mastodon
-### Version: 1.0.064
+### Version: 1.0.065
 
 ## Features
 
