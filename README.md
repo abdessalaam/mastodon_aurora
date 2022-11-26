@@ -8,7 +8,8 @@ Beautiful custom css for Mastodon
 - unified, modern colour palette inspired by Northern Lights
 - larger profile header image to allow for more creativity
 - larger profile avatar to make it more personal and relatable
-- cleaned profile links and more discreet verified links indication
+- cleaner profile links in two columns (grid)
+- more discreet verified links indication
 - larger names of authors in the feed
 - slightly more spacious compose panel
 - custom font for navigation and headers
