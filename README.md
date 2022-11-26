@@ -27,7 +27,7 @@ This theme can be applied on top of an existing installation by simply calling t
 2. Login to your mastodon, then go to: _Preferences -> Administration -> Server Settings -> Appearance_
 3. in _Custom CSS_ put:
 
-`@import url("https://yourdomain.org/system/custom/mastodon_aurora.css");`
+`@import url("system/custom/mastodon_aurora.css");`
 
 
 CALLING A CUSTOM FONT
