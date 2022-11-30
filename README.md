@@ -1,5 +1,5 @@
 # Mastodon 'Aurora' CSS
-Beautiful custom css for Mastodon
+Beautiful custom css for Mastodon, designed for [artsculture.media](https://talk.artsculture.media/public)
 ### Version: 1.0.065
 
 ## Features
