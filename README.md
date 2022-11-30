@@ -1,6 +1,7 @@
 # Mastodon 'Aurora' CSS
 Beautiful custom css for Mastodon, designed for [artsculture.media](https://talk.artsculture.media/public) (preview it there)
-### Version: 1.0.065
+### Version: 1.0.070
+Date: 30 November 2022
 
 ## Features
 
@@ -12,12 +13,13 @@ Beautiful custom css for Mastodon, designed for [artsculture.media](https://talk
 - more discreet verified links indication
 - larger names of authors in the feed
 - slightly more spacious compose panel
-- custom font for navigation and headers
+- custom fonts for navigation, headers, and body
 - added background option for login and sign-up pages
 - custom thumbnail option for moved profiles
 - clearer indication of direct messages (colour accent) 
 - pulsating dot for unread direct messages
 - various other small tweaks and changes
+- styled "translate" link (based on DeepL implenentation)
 
 
 ## Instructions
@@ -33,9 +35,11 @@ This theme can be applied on top of an existing installation by simply calling t
 
 CALLING A CUSTOM FONT
 
-You can @import a font to this file, e.g. from google (an option is provided), but it is preferable to put required fonts in a local folder and call it from there, to avoid sharing data with external corporations. 
-The font can be downloaded from https://fonts.google.com/noto/specimen/Noto+Sans+Display and then to be uploaded to your server, to: _your_mastodon/public/system/custom/fonts_
-
+You can @import fonts, e.g. from google (an option is provided), but it is preferable to put required fonts in a local folder and call them from there, to avoid sharing data with external corporations. 
+The fonts can be downloaded from 
+[Noto Sans Diplay](https://fonts.google.com/noto/specimen/Noto+Sans+Display)
+[Manrope](https://fonts.google.com/specimen/Manrope?query=manrope)
+and then to be uploaded to your server, to: _your_mastodon/public/system/custom/fonts_
 
 
 CUSTOM BACKGROUND for Login & Sign-Up pages
