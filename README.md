@@ -33,7 +33,7 @@ This theme can be applied on top of an existing installation by simply calling t
 `@import url("system/custom/mastodon_aurora.css");`
 
 
-CALLING A CUSTOM FONT
+### CALLING A CUSTOM FONT
 
 You can @import fonts, e.g. from google (an option is provided), but it is preferable to put required fonts in a local folder and call them from there, to avoid sharing data with external corporations. 
 The fonts can be downloaded from this repository, or from: 
@@ -44,11 +44,10 @@ The fonts can be downloaded from this repository, or from:
 and then to be uploaded to your server, to: _your_mastodon/public/system/custom/fonts_
 
 
-CUSTOM BACKGROUND for Login & Sign-Up pages
+### CUSTOM BACKGROUND for Login & Sign-Up pages
 upload an image of your choice to: _your_mastodon/public/system/custom/graphics/_
 
-
-CUSTOM THUMBNAIL for accounts that moved - an example is provided in this repository
+### CUSTOM THUMBNAIL for accounts that moved - an example is provided in this repository
 upload to: _your_mastodon/public/system/custom/graphics/_
 
 
