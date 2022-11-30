@@ -39,11 +39,11 @@ The font can be downloaded from https://fonts.google.com/noto/specimen/Noto+Sans
 
 
 CUSTOM BACKGROUND for Login & Sign-Up pages
-upload an image of your choice to: _your_mastodon/public/system/custom/_
+upload an image of your choice to: _your_mastodon/public/system/custom/graphics/_
 
 
 CUSTOM THUMBNAIL for accounts that moved
-upload to: _your_mastodon/public/system/custom/_
+upload to: _your_mastodon/public/system/custom/graphics/_
 
 
 ## Enjoy, share, adapt, and follow me on mastodon: 
