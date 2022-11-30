@@ -36,7 +36,7 @@ This theme can be applied on top of an existing installation by simply calling t
 CALLING A CUSTOM FONT
 
 You can @import fonts, e.g. from google (an option is provided), but it is preferable to put required fonts in a local folder and call them from there, to avoid sharing data with external corporations. 
-The fonts can be downloaded from: 
+The fonts can be downloaded from this repository, or from: 
 
 - [Noto Sans Diplay](https://fonts.google.com/noto/specimen/Noto+Sans+Display)
 - [Manrope](https://fonts.google.com/specimen/Manrope?query=manrope)
@@ -48,7 +48,7 @@ CUSTOM BACKGROUND for Login & Sign-Up pages
 upload an image of your choice to: _your_mastodon/public/system/custom/graphics/_
 
 
-CUSTOM THUMBNAIL for accounts that moved
+CUSTOM THUMBNAIL for accounts that moved - an example is provided in this repository
 upload to: _your_mastodon/public/system/custom/graphics/_
 
 
