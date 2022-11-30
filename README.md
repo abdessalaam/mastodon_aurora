@@ -47,7 +47,8 @@ and then to be uploaded to your server, to: _your_mastodon/public/system/custom/
 ### CUSTOM BACKGROUND for Login & Sign-Up pages
 upload an image of your choice to: _your_mastodon/public/system/custom/graphics/_
 
-### CUSTOM THUMBNAIL for accounts that moved - an example is provided in this repository
+### CUSTOM THUMBNAIL for accounts that moved
+you can download an example from this repository
 upload to: _your_mastodon/public/system/custom/graphics/_
 
 
