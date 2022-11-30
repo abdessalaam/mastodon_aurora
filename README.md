@@ -48,8 +48,7 @@ and then to be uploaded to your server, to: _your_mastodon/public/system/custom/
 upload an image of your choice to: _your_mastodon/public/system/custom/graphics/_
 
 ### CUSTOM THUMBNAIL for accounts that moved
-you can download an example from this repository
-upload to: _your_mastodon/public/system/custom/graphics/_
+you can download an example from this repository, upload to: _your_mastodon/public/system/custom/graphics/_
 
 
 ## Enjoy, share, adapt, and follow me on mastodon: 
