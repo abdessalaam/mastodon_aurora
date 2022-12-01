@@ -9,7 +9,7 @@ Date: 30 November 2022
 - unified, modern colour palette inspired by Northern Lights
 - larger profile header image to allow for more creativity
 - larger profile avatar to make it more personal and relatable
-- cleaner profile links in two columns (grid)
+- cleaner profile links in two columns (CSS grid)
 - more discreet verified links indication
 - larger names of authors in the feed
 - slightly more spacious compose panel
