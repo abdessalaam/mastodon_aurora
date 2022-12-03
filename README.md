@@ -33,6 +33,9 @@ This theme can be applied on top of an existing installation by simply calling t
 `@import url("system/custom/mastodon_aurora.css");`
 
 
+(alternatively, copy the content of this css and paste directly into the _Custom CSS_ field in Appearance)
+
+
 ### CALLING A CUSTOM FONT
 
 You can @import fonts, e.g. from google (an option is provided), but it is preferable to put required fonts in a local folder and call them from there, to avoid sharing data with external corporations. 
