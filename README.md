@@ -1,7 +1,7 @@
 # Mastodon 'Aurora' CSS
 Beautiful custom css for Mastodon, designed for [artsculture.media](https://talk.artsculture.media/public) (preview it there and [see an enhanced profile here](https://talk.artsculture.media/@baroquepawel))
 ### Version: 1.0.070
-Date: 30 November 2022
+Date: 20 December 2022
 
 ## Features
 
@@ -73,6 +73,9 @@ Permission to use, copy, modify, and distribute this work
 for any purpose with or without fee is hereby granted,
 provided that the above copyright notice and 
 this permission appear in all copies. 
+
+EXCEPTION: IT IS FORBIDDEN TO USE THIS WORK IN RELATION TO 
+ANY NSFW, ILLEGAL, OR VIOLENT CONTENT.
 
 This material is provided "as is", with absolutely no warranty 
 expressed or implied. Any use is at your own responsibility.
