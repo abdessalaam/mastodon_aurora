@@ -19,8 +19,8 @@ expressed or implied. Any use is at your own responsibility.
 **************************************************************/
 
 /*
-* Version: 1.0.069
-* Date: 20 December 2022
+* Version: 1.0.071
+* Date: 31 December 2022
 */
 
 
@@ -92,6 +92,15 @@ expressed or implied. Any use is at your own responsibility.
     font-weight: 800;
 }
 
+/* EMBEDDED CONTENT */
+
+body.embed .detailed-status__display-name {
+    font-size: 0.85rem !important;
+}
+body.embed .button.logo-button {
+    background: #5f5cc9;
+}
+
 
 
 /***********************************
@@ -146,15 +155,22 @@ body.lighter {
 }
 
 .theme-default .detailed-status, .detailed-status__action-bar {
-    background-color: #02111B;
+    background-color: #02111B !important;
 }
+
 
 .theme-default .conversation--unread {
     background-color: #02111B;
 }
 
+
 .theme-default .conversation--unread p {
     color: #FCFCFC;
+}
+
+.theme-default .muted .status__content p, .status__content a {
+    color: #FCFCFC !important;
+    opacity: 0.75;
 }
 
 .theme-default .account__header {
@@ -276,8 +292,13 @@ body {
     line-height: 1.55rem;
 }
 
+.mention .hashtag {
+    opacity: 0.65;
+    margin-right: 0.25rem;
+}
+
 .mention {
-    opacity: 0.55;
+    opacity: 0.75;
     margin-right: 0.25rem;
 }
 
@@ -295,7 +316,7 @@ body {
     font-size: 1.25rem;
     font-family: 'Noto Sand Display', sans-serif;
     font-weight: 800;
-    opacity: 0.55;
+    opacity: 0.65;
 }
 
 .display-name__html {
@@ -305,7 +326,7 @@ body {
 
 .navigation-bar__profile-edit {
     font-size: 0.8rem;
-    opacity: 0.55;
+    opacity: 0.65;
 }
 
 .account__header__fields .verified {
@@ -413,7 +434,7 @@ a.column-link {
         color: #ffffff;
         font-weight: 800;
         font-variant-caps: all-small-caps;
-        opacity: 0.55;
+        opacity: 0.65;
 }
 
 .status__content__read-more-button span::before {
@@ -432,7 +453,7 @@ a.column-link {
 .translate-button .link-button {
     color: #ffffff;
     font-variant-caps: all-small-caps;
-    opacity: 0.55;
+    opacity: 0.65;
 }
 
 .translate-button .link-button {
@@ -443,6 +464,6 @@ a.column-link {
 .translate-button__meta {
     color: #ffffff;
     font-variant-caps: all-small-caps;
-    opacity: 0.55;
+    opacity: 0.65;
 }
 
