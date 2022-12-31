@@ -478,7 +478,7 @@ a.column-link {
     content:'Toot!'; 
     visibility: visible;
     background-color: #595aff;
-    opacity: 0.75;
+    opacity: 0.85;
     border: 10px;
     border-radius: 4px;
     box-sizing: border-box;
@@ -501,5 +501,15 @@ a.column-link {
 }
 
 .compose-form__publish-button-wrapper .button:hover::after {
+    opacity: 1;
+}
+
+.button {
+    background: #6364ff !important;
+    opacity: 0.85;
+}
+
+.button:hover {
+    background: #6364ff;
     opacity: 1;
 }
