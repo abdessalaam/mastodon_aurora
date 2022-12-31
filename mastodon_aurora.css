@@ -19,7 +19,7 @@ expressed or implied. Any use is at your own responsibility.
 **************************************************************/
 
 /*
-* Version: 1.0.071
+* Version: 1.0.072
 * Date: 31 December 2022
 */
 
@@ -467,3 +467,39 @@ a.column-link {
     opacity: 0.65;
 }
 
+
+/* BUTTON: Publish -> Toot */
+
+.compose-form__publish-button-wrapper .button {
+    visibility: hidden;
+}
+
+.compose-form__publish-button-wrapper .button::after {
+    content:'Toot!'; 
+    visibility: visible;
+    background-color: #595aff;
+    opacity: 0.75;
+    border: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: inherit; */
+    font-family: 'Noto Sans Display';
+    font-style: normal;
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 7px 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.compose-form__publish-button-wrapper .button:hover::after {
+    opacity: 1;
+}
