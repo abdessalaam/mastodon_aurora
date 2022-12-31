@@ -9,6 +9,7 @@ Date: 31 December 2022
 ## Features
 
 - optimized for dark theme as default
+- Replaced "Publish!" button with "Toot!"
 - unified, modern colour palette inspired by Northern Lights
 - larger profile header image to allow for more creativity
 - larger profile avatar to make it more personal and relatable
