@@ -1,7 +1,7 @@
 # Mastodon 'Aurora' CSS
 Beautiful custom css for Mastodon, designed for [artsculture.media](https://talk.artsculture.media/public) (preview it there and [see an enhanced profile here](https://talk.artsculture.media/@baroquepawel))
-### Version: 1.0.070
-Date: 20 December 2022
+### Version: 1.0.071
+Date: 31 December 2022
 
 <img src="https://cdn.bach.club/sdg/Mastodon/Aurora/mastodon_aurora_css_About.webp" width="325px" height="auto"  title="About the instance | Mastodon Aurora CSS" alt="Screenshot of Mastodon with Aurora CSS applied" style="padding:1rem;"><img src="https://cdn.bach.club/sdg/Mastodon/Aurora/mastodon_aurora_css_DM.webp" width="325px" height="auto"  title="Direct messages | Mastodon Aurora CSS" alt="Screenshot of Mastodon with Aurora CSS applied" style="padding:1rem;"><img src="https://cdn.bach.club/sdg/Mastodon/Aurora/mastodon_aurora_css_Moved.webp" width="325px" height="auto"  title="Profile moved | Mastodon Aurora CSS" alt="Screenshot of Mastodon with Aurora CSS applied" style="padding:1rem;"><img src="https://cdn.bach.club/sdg/Mastodon/Aurora/mastodon_aurora_css_Profile.webp" width="325px" height="auto"  title="Profile | Mastodon Aurora CSS" alt="Screenshot of Mastodon with Aurora CSS applied" style="padding:1rem;"><img src="https://cdn.bach.club/sdg/Mastodon/Aurora/mastodon_aurora_css_SignUp.webp" width="325px" height="auto"  title="Sign-up page | Mastodon Aurora CSS" alt="Screenshot of Mastodon with Aurora CSS applied" style="padding:1rem;"><img src="https://cdn.bach.club/sdg/Mastodon/Aurora/mastodon_aurora_css_Timeline.webp" width="325px" height="auto"  title="Timeline | Mastodon Aurora CSS" alt="Screenshot of Mastodon with Aurora CSS applied" style="padding:1rem;">
 
