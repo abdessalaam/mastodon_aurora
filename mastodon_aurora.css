@@ -262,6 +262,15 @@ body.lighter {
     background: #eff3f5;
 }
 
+.theme-mastoden-light .conversation--unread p {
+    color: #858482;
+}
+
+.theme-mastoden-light .muted .status__content p, .status__content a {
+    color: #858482 !important;
+    opacity: 0.75;
+}
+
 
 /***********************************
 * UNIVERSAL 
