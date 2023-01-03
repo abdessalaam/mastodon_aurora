@@ -168,7 +168,8 @@ body.lighter {
     color: #FCFCFC;
 }
 
-.theme-default .muted .status__content p, .status__content a {
+.theme-default .muted .status__content p, 
+.theme-default .status__content a {
     color: #FCFCFC !important;
     opacity: 0.75;
 }
@@ -262,15 +263,11 @@ body.lighter {
     background: #eff3f5;
 }
 
-.theme-mastoden-light .conversation--unread p {
-    color: #858482;
-}
-
-.theme-mastoden-light .muted .status__content p, .status__content a {
-    color: #858482 !important;
+.theme-mastodon-light .muted .status__content p, 
+.theme-mastodon-light .status__content a {
+    color:  #0d0c0c !important; 
     opacity: 0.75;
 }
-
 
 /***********************************
 * UNIVERSAL 
@@ -516,9 +513,11 @@ a.column-link {
 .button {
     background: #6364ff !important;
     opacity: 0.85;
+    color: #fff;
 }
 
 .button:hover {
     background: #6364ff;
     opacity: 1;
+    color: #fff;
 }
