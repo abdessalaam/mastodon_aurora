@@ -215,7 +215,7 @@ body.lighter {
     background: #02111B;
 }
 
-.theme-default .compose-panel .compose-form__autosuggest-wrapper {
+.theme-default .compose-panel .compose-form__autosuggest-wrapper { 
     border-width: 1px;
     border-style: solid;
     border-color: #7974FE;
@@ -225,6 +225,20 @@ body.lighter {
 .theme-default .compose-form .autosuggest-textarea__textarea {
     background-color: #02111B !important;
     color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7974FE;
+    background-color: #02111B;
+    border-bottom: hidden;
+}
+
+.compose-form .compose-form__modifiers .compose-form__uploads-wrapper {
+    border-style: solid;
+    border-color: #7974FE;
+    background-color: #02111B;
+    border-bottom: hidden;
+    border-top: hidden;
+    border-width: 1px;
 }
 
 .theme-default html {
