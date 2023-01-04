@@ -19,8 +19,8 @@ expressed or implied. Any use is at your own responsibility.
 **************************************************************/
 
 /*
-* Version: 1.0.072
-* Date: 31 December 2022
+* Version: 1.0.073
+* Date: 4 Jan 2023
 */
 
 
@@ -232,6 +232,13 @@ body.lighter {
     border-bottom: hidden;
 }
 
+.theme-default .compose-form .compose-form__buttons-wrapper {
+    background: #02111B;
+    border-width: 0 1px 5px 1px;
+    border-style: solid;
+    border-color: #7974FE;
+}
+
 .compose-form .compose-form__modifiers .compose-form__uploads-wrapper {
     border-style: solid;
     border-color: #7974FE;
@@ -266,13 +273,6 @@ body.lighter {
     background-color: #eff3f5;
 }
 
-.theme-default .compose-form .compose-form__buttons-wrapper {
-    background: #02111B;
-    border-width: 0 1px 5px 1px;
-    border-style: solid;
-    border-color: #7974FE;
-}
-
 .theme-mastodon-light .column>.scrollable {
     background: #eff3f5;
 }
@@ -281,6 +281,25 @@ body.lighter {
 .theme-mastodon-light .status__content a {
     color:  #0d0c0c !important; 
     opacity: 0.75;
+}
+
+.theme-mastodon-light .compose-form .compose-form__modifiers {
+    background: #eff3f5;
+}
+.ttheme-mastodon-light .compose-form__autosuggest-wrapper {
+    border-width: 1px;
+    border-style: solid;
+    background-color: #eff3f5;
+}
+
+.theme-mastodon-light .compose-form .autosuggest-textarea__textarea {
+    background-color: #eff3f5 !important;
+}
+
+.theme-mastodon-light .compose-form__buttons-wrapper {
+    background: #eff3f5;
+    border-width: 0 1px 5px 1px;
+    border-style: solid;
 }
 
 /***********************************
