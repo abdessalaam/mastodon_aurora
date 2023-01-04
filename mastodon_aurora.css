@@ -19,7 +19,7 @@ expressed or implied. Any use is at your own responsibility.
 **************************************************************/
 
 /*
-* Version: 1.0.074
+* Version: 1.0.075
 * Date: 4 Jan 2023
 */
 
@@ -288,6 +288,10 @@ body.lighter {
     background: #eff3f5;
     border-width: 0 1px 5px 1px;
     border-style: solid;
+}
+
+.theme-mastodon-light .dismissable-banner, .follow_requests-unlocked_explanation {
+    background-color: #d9e1e8;
 }
 
 /***********************************
