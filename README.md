@@ -1,5 +1,5 @@
 # Mastodon 'Aurora' CSS
-Beautiful custom css for Mastodon, designed for [artsculture.media](https://talk.artsculture.media/public) (preview it there and [see an enhanced profile here](https://talk.artsculture.media/@baroquepawel))
+Beautiful custom css for Mastodon, designed for [artsculture.media](https://talk.artsculture.media/public?utm_source=github&utm_medium=readme&utm_campaign=aurora) (also [see an enhanced profile here](https://talk.artsculture.media/@baroquepawel?utm_source=github&utm_medium=readme&utm_campaign=aurora)).
 
 Date: 5 January 2023
 
