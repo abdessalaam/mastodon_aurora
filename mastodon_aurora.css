@@ -19,8 +19,8 @@ expressed or implied. Any use is at your own responsibility.
 **************************************************************/
 
 /*
-* Version: 1.0.075
-* Date: 4 Jan 2023
+* Version: 1.0.076
+* Date: 5 Jan 2023
 */
 
 
@@ -551,4 +551,11 @@ a.column-link {
     background: #6364ff;
     opacity: 1;
     color: #fff;
+}
+
+/* FOOTER BRANDING – feel free to put your own or remove */
+.link-footer {
+    background: url('https://cdn.bach.club/sdg/Mastodon/Logos/acm_masto_footer_logo2.webp');
+    background-size: cover;
+    background-blend-mode:darken;
 }
