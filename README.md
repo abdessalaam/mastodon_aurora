@@ -27,10 +27,6 @@ Date: 5 January 2023
 - footer branding (transparent backgroung logo of the instance) 
 
 
-## Contributors
-[sschwetz](https://github.com/sschwetz)
-
-
 ## Instructions
 
 This theme can be applied on top of an existing installation by simply calling the css file:
