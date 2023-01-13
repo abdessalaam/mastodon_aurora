@@ -19,8 +19,8 @@ expressed or implied. Any use is at your own responsibility.
 **************************************************************/
 
 /*
-* Version: 1.0.076
-* Date: 5 Jan 2023
+* Version: 1.0.077
+* Date: 13 Jan 2023
 */
 
 
@@ -245,6 +245,12 @@ body.lighter {
 .theme-default .dropdown-menu, .dropdown-menu__item a {
     background: #313543;
     color: #eff3f5;
+}
+
+/* MEDIA / IMAGE details modal */
+.theme-default .report-modal {
+    background: #282c37;;
+    color: #fff;
 }
 
 /***********************************
