@@ -286,15 +286,6 @@ body.lighter {
     background-color: #eff3f5;
 }
 
-.theme-mastodon-light .compose-form .autosuggest-textarea__textarea {
-    background-color: #eff3f5 !important;
-}
-
-.theme-mastodon-light .compose-form__buttons-wrapper {
-    background: #eff3f5;
-    border-width: 0 1px 5px 1px;
-    border-style: solid;
-}
 
 .theme-mastodon-light .dismissable-banner, .follow_requests-unlocked_explanation {
     background-color: #d9e1e8;
