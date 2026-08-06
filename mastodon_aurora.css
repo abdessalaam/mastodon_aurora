@@ -108,7 +108,7 @@ body.embed .button.logo-button {
 ***********************************/
 
 body.lighter {
-    background: url('graphics/pbackg1.jpg'); /* change name to your background image */
+/*    background: url('graphics/pbackg1.jpg'); /* change name to your background image */
     background-color: #02111B;
     background-size: cover;
 }
@@ -168,6 +168,7 @@ body.lighter {
     color: #FCFCFC;
 }
 
+.theme-default .status__content__read-more-button span.status__content__read-more-button span
 .theme-default .muted .status__content p, 
 .theme-default .status__content a {
     color: #FCFCFC !important;
@@ -467,19 +468,24 @@ a.column-link {
 }
 
 /* TRANSLATE POST  */
+/* Read More */
 .status__content__read-more-button span {
-        color: #ffffff;
+        color: #595aff;
         font-weight: 800;
         font-variant-caps: all-small-caps;
         opacity: 0.65;
 }
+
+.status__content__read-more-button span
+6364ff
 
 .status__content__read-more-button span::before {
     content: '> ';
 }
 
 .status__content__read-more-button span:hover {
-    color: #BF1A2F;
+/*    color: #BF1A2F; */
+    color: #6364ff;
     opacity: 0.95;
 }
 
@@ -560,8 +566,9 @@ a.column-link {
 }
 
 /* FOOTER BRANDING – feel free to put your own or remove */
-.link-footer {
+/*.link-footer {
     background: url('https://cdn.bach.club/sdg/Mastodon/Logos/acm_masto_footer_logo2.webp');
     background-size: cover;
     background-blend-mode:darken;
-}
+
+}*/
